@@ -23,6 +23,7 @@ function anchopagina() {
   contenedor_login_register.style.display="0px";}
 }
 
+anchopagina();
 
 function iniciarSesion() {
   if (window.innerWidth > 850) {

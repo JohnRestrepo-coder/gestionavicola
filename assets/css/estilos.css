@@ -142,6 +142,17 @@ main {
 .formulario__register {
   display: none;
 }
+ #mi-imagen {
+
+   
+    position: fixed;
+    bottom: 0;
+    left: 0; /* O right: 0; según desees colocarlo en la derecha o izquierda */
+    width: 200px; /* Ancho deseado */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin: 5px; /* Ajusta según sea necesario */
+    border-radius: 15px;
+}
 
 /* responsive desgin*/
 
@@ -173,15 +184,4 @@ main {
   .contenedor__login-register form {
     position: relative;
   }
-
-  .logocontainer {
-
-    border-radius: 60%;
-    position: fixed;
-    bottom: 0;
-    left: 0; /* O right: 0; según desees colocarlo en la derecha o izquierda */
-    width: 100px; /* Ancho deseado */
-    height: auto; /* Mantiene la proporción original de la imagen */
-    margin: 1px; /* Ajusta según sea necesario */
-}
 }
